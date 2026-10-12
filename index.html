@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Gaming & Achievement Hub</title>
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header id="top">
+
+        <h1>🎮 Student Gaming & Achievement Hub</h1>
+
+        <p>
+            Welcome to the student gaming and achievement center!
+            Explore the leaderboard, discover useful resources,
+            and connect with other students.
+        </p>
+
+        <!-- Navigation using fragment links -->
+
+        <nav>
+
+            <a href="#home">Home</a> |
+            <a href="#leaderboard">Leaderboard</a> |
+            <a href="#resources">Resources</a> |
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <hr>
+
+
+    <!-- =========================
+         HOME SECTION
+    ========================== -->
+
+    <main>
+
+        <section id="home">
+
+            <h2>🏆 Welcome Players!</h2>
+
+            <p>
+                This website is a fun student hub where you can
+                check the latest gaming achievements and see who
+                is leading the competition.
+            </p>
+
+            <!-- Image with alternative text -->
+
+            <img
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
+                alt="Gaming setup with a computer, keyboard and monitor"
+                width="700"
+            >
+
+            <h3>Why Gaming?</h3>
+
+            <p>
+                Gaming can encourage teamwork, problem solving,
+                creativity and strategic thinking.
+            </p>
+
+            <p>
+                <a href="#leaderboard">Jump to the leaderboard ↓</a>
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- =========================
+             LEADERBOARD
+        ========================== -->
+
+        <section id="leaderboard">
+
+            <h2>🏆 Weekly Leaderboard</h2>
+
+            <p>
+                Here are this week's top student players.
+            </p>
+
+
+            <!-- Semantic HTML table -->
+
+            <table border="1">
+
+                <caption>
+                    Student Gaming Weekly Rankings
+                </caption>
+
+                <thead>
+
+                    <tr>
+
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Game</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Achievement</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <th scope="row">1</th>
+
+                        <td>Boniphace</td>
+
+                        <td>Chess Master</td>
+
+                        <td>9850</td>
+
+                        <td>🏆 Grand Master</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th scope="row">2</th>
+
+                        <td>Kwabena</td>
+
+                        <td>Speed Runner</td>
+
+                        <td>9200</td>
+
+                        <td>⚡ Speed Champion</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th scope="row">3</th>
+
+                        <td>Caleb</td>
+
+                        <td>Strategy Wars</td>
+
+                        <td>8750</td>
+
+                        <td>🧠 Strategy Expert</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th scope="row">4</th>
+
+                        <td>David</td>
+
+                        <td>Racing Pro</td>
+
+                        <td>8100</td>
+
+                        <td>🏎️ Fastest Driver</td>
+
+                    </tr>
+
+                </tbody>
+
+
+                <tfoot>
+
+                    <tr>
+
+                        <td colspan="5">
+                            Keep playing and you could be next week's champion! 🎮
+                        </td>
+
+                    </tr>
+
+                </tfoot>
+
+            </table>
+
+
+            <p>
+                <a href="#top">↑ Back to top</a>
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- =========================
+             RESOURCES
+        ========================== -->
+
+        <section id="resources">
+
+            <h2>🌐 Gaming Resources</h2>
+
+            <p>
+                Check out some useful resources.
+            </p>
+
+
+            <!-- Absolute URL -->
+
+            <h3>External Website</h3>
+
+            <p>
+
+                <a
+                    href="https://www.chess.com"
+                    target="_blank"
+                    rel="external"
+                >
+                    Visit Chess.com
+                </a>
+
+            </p>
+
+
+            <!-- Email link -->
+
+            <h3>Send Us an Email</h3>
+
+            <p>
+
+                <a href="mailto:studentgaming@example.com">
+                    📧 Email the Gaming Hub
+                </a>
+
+            </p>
+
+
+            <!-- Telephone link -->
+
+            <h3>Call the Gaming Coordinator</h3>
+
+            <p>
+
+                <a href="tel:+233000000000">
+                    📞 Call Gaming Support
+                </a>
+
+            </p>
+
+
+            <!-- Download link -->
+
+            <h3>Download Achievement Certificate</h3>
+
+            <p>
+
+                <a
+                    href="data:text/plain;charset=utf-8,Student%20Gaming%20Achievement%20Certificate%0A%0ACongratulations!%20You%20have%20successfully%20completed%20a%20gaming%20challenge."
+                    download="achievement-certificate.txt"
+                >
+                    📥 Download Certificate
+                </a>
+
+            </p>
+
+
+            <p>
+                <a href="#top">↑ Back to top</a>
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- =========================
+             PICTURE SECTION
+        ========================== -->
+
+        <section>
+
+            <h2>🖥️ Responsive Gaming Image</h2>
+
+            <p>
+                The picture element can provide different images
+                depending on the screen size.
+            </p>
+
+
+            <picture>
+
+                <source
+                    media="(max-width: 600px)"
+                    srcset="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600"
+                >
+
+                <source
+                    media="(min-width: 601px)"
+                    srcset="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200"
+                >
+
+                <img
+                    src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
+                    alt="A modern gaming computer setup"
+                    width="700"
+                >
+
+            </picture>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact">
+
+            <h2>📞 Contact the Gaming Hub</h2>
+
+            <p>
+                Have an idea for the next gaming competition?
+                Contact us.
+            </p>
+
+            <p>
+                <a href="mailto:studentgaming@example.com">
+                    Send an Email
+                </a>
+            </p>
+
+            <p>
+                <a href="tel:+233000000000">
+                    Call Us
+                </a>
+            </p>
+
+            <p>
+                <a href="#top">↑ Back to top</a>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <hr>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Student Gaming & Achievement Hub
+        </p>
+
+        <p>
+            Built using HTML Lesson 4 concepts.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
